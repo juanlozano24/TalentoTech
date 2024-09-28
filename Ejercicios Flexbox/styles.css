@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+.main-image{
+    background: url('../Ejercicios Flexbox/fondo.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    text-align: center;
+    /*text-shadow: 1px 10px 10px rgb(255, 255, 255);*/
+
+}
+
+.main-image h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    text-shadow: 1px 20px 10px rgb(255, 255, 255);
+    
+}
+
+.main-image h1 .strike {
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+.main-image p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px rgb(244, 237, 51);
+    
+}
+
+/*.main-image .btn {
+    background: none;
+    color: #ffffff;
+    border: 2px solid #6a2f2f;
+    border-radius: 3px;
+    padding: 1rem 2 rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}*/

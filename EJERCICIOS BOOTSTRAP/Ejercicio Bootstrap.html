@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!--<div class="container-fluid pt-5" >
+        <h1>Mi primera pagina con bootstrap</h1>
+        <p>Esta parte está dentro de una clase container-fluid</p>
+        <p>la clase .container-fluid proporciona un contenedor de ancho completo, que abarca todo el ancho de la ventana grafica</p>
+    </div>-->
+
+    <div class="container-fluid p-5 my-5 border bg-primary text-white" >
+        <h1>Mi primera pagina con bootstrap</h1>
+        <p>Esta parte está dentro de una clase container-fluid</p>
+        <p>la clase .container-fluid proporciona un contenedor de ancho completo, que abarca todo el ancho de la ventana grafica</p>
+    </div>
+
+    <!--<div class="container-sm">.container-sm</div>
+    <div class="container-md">.container-md</div>
+    <div class="container-lg">.container-lg</div>  
+    <div class="container-xl">.container-xl</div>
+    <div class="container-xxl">.container-xxl</div>-->
+
+    <div class="row">
+        <div class="col">Columna 1</div>
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 3</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">Columna 1</div>
+        <div class="col-sm-3">Columna 2</div>
+        <div class="col-sm-3">Columna 3</div>
+        <div class="col-sm-3">Columna 4</div>
+    </div>
+<!--Tabla con columnas resposivas con tamaño 4 y 8-->
+    <div class="row">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-8">.col-sm-8</div>
+    </div>
+
+<!--Container para visualizar los colores de texto-->
+
+<div class="container mt-3">
+    <h2>Colores de texto</h2>
+    <p>Utilice las clases contextuales para proporcionar el significado de los colores en textos</p>
+    <p class="text-muted">Este texto está silenciado..</p>
+    <p class="text-primary">Este texto es importante..</p>
+    <p class="text-success">Este texto es para indicar exitos..</p>
+    <p class="text-info">Este texto es para indicar textos de información..</p>
+    <p class="text-warning">Este texto es para indicar textos de advertencia..</p>
+    <p class="text-danger">Este texto es para indicar textos de peligro..</p>
+    <p class="text-secondary">Este texto es para indicar mensajes secundarios..</p>
+    <p class="text-dark">Este texto es para indicar textos color gris oscuro..</p>
+    <p class="text-body">Color de carroceria predeterminado (A menudo negro)..</p>
+    <p class="text-light">Este texto es para indicar textos color gris claro (sobre fondo blanco)..</p>
+    <p class="text-white bg-dark">Este texto es para indicar textos de color blanco (sobre fondo negro)..</p>
+</div>
+<!--Container para visualizar fondo de textos-->
+<div class="container mt-3">
+    <h2>Colores de fondos</h2>
+    <p>Utilice las clases contextuales para proporcionar el significado de los colores en fondos</p>
+    <p class="bg-primary p-3">Este fondo indica información importante..</p>
+    <p class="bg-success p-3">Este fondo indica exitos..</p>
+    <p class="bg-info p-3">Este fondo indica cuadros de información..</p>
+    <p class="bg-warning p-3">Este fondo indica textos de advertencia..</p>
+    <p class="bg-danger p-3">Este fondo indica textos de peligro..</p>
+    <p class="bg-secondary p-3">Este fondo indica mensajes secundarios..</p>
+</div>
+
+<div class="container mt-3">
+    <h2>Tabla básica</h2>
+    <p>La clase .table agrega un estilo básico, relleno ligero y divisiones horizontales</p>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>John@example.com</td>
+            </tr>
+            <tr>
+                <td>Andrés</td>
+                <td>Mosquera</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>Linda</td>
+                <td>Duarte</td>
+                <td>juli@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!--Imagenes redondeadas-->
+<div class="container mt-3">
+    <h2>Imágenes redondeadas</h2>
+    <p>la clase .rounded permitirá insertar imagenes con los bordes redondeados</p>
+    <img src="../EJERCICIOS BOOTSTRAP/images.jpeg" class="rounded" width="304" height="236">
+</div>
+<div class="container mt-3">
+    <h2>Imágenes redondeadas</h2>
+    <p>la clase .rounded-circle permitirá insertar imagenes redondeadas</p>
+    <img src="../EJERCICIOS BOOTSTRAP/descarga.jpeg" class="rounded-circle" width="304" height="236">
+</div> 
+<!--Alienar imagenes-->
+<div class="container mt-3">
+    <h2>Alinear Imágenes</h2>
+    <p>la clase .float-start y float-end permitirá alinear imagenes</p>
+    <img src="../EJERCICIOS BOOTSTRAP/mikey.jpg" class="float-start" alt="mikey" width="304" height="236">
+    <img src="../EJERCICIOS BOOTSTRAP/mikey.jpg" class="float-end" alt="mikey" width="304" height="236">
+</div> 
+<!--Imagenes resposivas-->
+<!--<div>
+    <img src="../EJERCICIOS BOOTSTRAP/NuevaYork.jpeg" class="img-fluid" alt="NuevaYork" width="600" height="300">
+</div>-->
+<br>
+<br>
+<br>
+<br> <br>
+<br> <br>
+<br> <br>
+<br> <br>
+<br>
+
+<!--Botones
+Estilos de botones
+-->
+<div class="container mt-3">
+    <h2 class="text-center">Clases de botones</h2>
+    <p>creamos los diferentes botones de acuerdo a la clase involucrada</p>
+    <button type="button" class="btn">Básicos</button>
+    <button type="button" class="btn btn-primary">Primario</button>
+    <button type="button" class="btn btn-secondary">Secundario</button>
+    <button type="button" class="btn btn-success">Exitoso</button>
+    <button type="button" class="btn btn-info">Informativo</button>
+    <button type="button" class="btn btn-warning">Advertencia</button>
+    <button type="button" class="btn btn-danger">Peligro</button>
+    <button type="button" class="btn btn-dark">Oscuro</button>
+    <button type="button" class="btn btn-ligth">Luz</button>
+    <button type="button" class="btn btn-link">Link</button>
+</div>
+<!--Esquema del boton-->
+<div class="container mt-3">
+    <h2 class="text-center">Clases de botones</h2>
+    <p>creamos los diferentes botones de acuerdo a la clase involucrada</p>
+    <button type="button" class="btn">Básicos</button>
+    <button type="button" class="btn btn-outline-primary">Primario</button>
+    <button type="button" class="btn btn-outline-secondary">Secundario</button>
+    <button type="button" class="btn btn-outline-success">Exitoso</button>
+    <button type="button" class="btn btn-outline-info">Informativo</button>
+    <button type="button" class="btn btn-outline-warning">Advertencia</button>
+    <button type="button" class="btn btn-outline-danger">Peligro</button>
+    <button type="button" class="btn btn-outline-dark">Oscuro</button>
+    <button type="button" class="btn btn-outline-ligth">Luz</button>
+    <button type="button" class="btn btn-outline-link">Link</button>
+</div>
+
+<div class="container mt-3">
+    <h2>Grupos de botones</h2>
+    <p>Grupos de botones con menú desplegable:</p>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Sony
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <h2>Insignias contextuales</h2>
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+    <span class="badge bg-warning">Warning</span>
+    <span class="badge bg-info">Info</span>
+    <span class="badge bg-light">Light</span>
+    <span class="badge bg-dark">Dark</span>
+</div>
+<div class="container mt-3">
+    <h2>Radio buttons</h2>
+    <p>El siguiente fomulario contiene tres botones de opción. La primera opción está marcada de forma predeterminada
+        y la ultima opción esta deshabilitada:</p>
+    <form action="/action_page.php"></form>
+        <div class="form-check">
+            <input type="radio" class="from-check-input" id="radio1" name="optiradio" value="Opción 1" checked>
+            <label class="from-check-label" for="radio1">Opcion 1</label>
+        <div>
+            <input type="radio" class="from-check-input" id="radio2" name="optiradio" value="Opción 2" checked>
+            <label class="from-check-label" for="radio1">Opcion 2</label>
+        </div >
+            <input type="radio" class="from-check-input" disabled>
+            <label class="from-check-label" for="radio1">Opcion 3</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</div>
+
+<div class="container mt-3">
+    <h2>interruptores de palanca</h2>
+    <p>Intente enviar el formulario con y sin alternan el interruptor.</p>
+    <form action="/action_page.php">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" name="darkmode" value="yes" checked>
+            <label class="form-check-label" for="flexSwitchCheckDefault">modelo oscuro</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+    </form>
+</div>
+<div class="container mt-3">
+    <h2>Gama personalizada</h2>
+    <p>Para crear un menu de rango personalizado, agregue la clase .for-range al elemento de entrada con type="range"</p>
+    <form action="/action_page.php">
+        <label for="customRange" class="form-label">Menú de rango</label>
+        <input type="range" class="form-range" id="customrange" name="points">
+        <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
